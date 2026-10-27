@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: greet
         id: hello
-        uses: octocat/hello-world-javascript-action@1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b
+        uses: gabrielcostasilva/gh-actions-js-custom-action@989fb0ffd74406749085885f23085b993a6a407d
         with:
           who-to-greet: John Doe
       - name: Get the output time
