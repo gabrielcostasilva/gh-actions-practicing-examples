@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: gabrielcostasilva/gh-actions-docker-custom-action@v1
+      uses: gabrielcostasilva/gh-actions-docker-custom-action@v2
       with:
         who-to-greet: 'John Doe'
     - name: Get the output time
